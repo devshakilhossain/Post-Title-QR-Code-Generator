@@ -1,0 +1,56 @@
+.rs-qr-panel {
+  display: grid;
+  gap: 12px;
+}
+
+.rs-qr-preview-wrap {
+  align-items: center;
+  background: #fff;
+  border: 1px solid #dcdcde;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  min-height: 210px;
+  padding: 10px;
+}
+
+.rs-qr-preview-wrap.is-empty {
+  background: #f6f7f7;
+}
+
+.rs-qr-preview {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.rs-qr-placeholder {
+  color: #646970;
+  font-size: 13px;
+  text-align: center;
+}
+
+.rs-qr-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.rs-qr-status,
+.rs-qr-note {
+  color: #646970;
+  font-size: 12px;
+  margin: 0;
+}
+
+.rs-qr-status.is-error {
+  color: #b32d2e;
+}
+
+.rs-qr-download.is-hidden {
+  display: none;
+}
+
+.rs-qr-panel.is-loading {
+  opacity: 0.82;
+}
